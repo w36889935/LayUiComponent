@@ -1,5 +1,5 @@
 (function(root,factory){
-	 root._=factory
-})(this,function(){
-	
+	 root._=factory(root)
+})(this,function(root){
+	var root._
 })
